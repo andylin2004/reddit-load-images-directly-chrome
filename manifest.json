@@ -10,7 +10,7 @@
         "128": "images/icon128.png"
     },
     "permissions": [
-        "declarativeNetRequest"
+        "declarativeNetRequestWithHostAccess"
     ],
     "host_permissions": [
         "https://preview.redd.it/*",
