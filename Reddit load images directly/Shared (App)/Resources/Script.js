@@ -6,6 +6,8 @@ function show(platform, enabled, useSettingsInsteadOfPreferences) {
         document.getElementsByClassName('platform-mac state-off')[0].innerText = "Reddit load images directly’s extension is currently off. You can turn it on in the Extensions section of Safari Settings.";
         document.getElementsByClassName('platform-mac state-unknown')[0].innerText = "You can turn on Reddit load images directly’s extension in the Extensions section of Safari Settings.";
         document.getElementsByClassName('platform-mac open-preferences')[0].innerText = "Quit and Open Safari Settings…";
+        document.getElementsByClassName('platform-mac open-preferences')[0].innerText = "Quit and Open Safari Settings…";
+        document.getElementsByClassName("preferences-discussion")[0].innerText = "Open Safari Extensions Settings";
     }
 
     if (typeof enabled === "boolean") {

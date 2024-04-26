@@ -27,9 +27,9 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
 
         self.webView.navigationDelegate = self
 
-#if os(iOS)
-        self.webView.scrollView.isScrollEnabled = false
-#endif
+//#if os(iOS)
+//        self.webView.scrollView.isScrollEnabled = false
+//#endif
 
         self.webView.configuration.userContentController.add(self, name: "controller")
 

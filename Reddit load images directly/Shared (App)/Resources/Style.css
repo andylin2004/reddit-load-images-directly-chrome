@@ -28,6 +28,10 @@ body {
     text-align: center;
 }
 
+ol {
+    text-align: left;
+}
+
 body:not(.platform-mac, .platform-ios) :is(.platform-mac, .platform-ios) {
     display: none;
 }
